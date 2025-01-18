@@ -1,0 +1,28 @@
+:root{
+    --primary1: #3ECF4C;
+    --primary2: #6BE26B;
+    --primary3: #94F08B;
+    --primary4: #C0FAB4;
+    --primary5: rgba(226, 252, 217, 0.8);
+
+    --secondary1:rgba(255, 189, 58, 1);
+    --secondary2:rgba(255, 210, 107, 1);
+    --secondary3:rgba(255, 223, 136, 1);
+    --secondary4:rgba(255, 236, 176, 1);
+    --secondary5:rgba(255, 247, 215, 0.8);
+
+    --tertiary1:rgba(246, 73, 32, 1);
+    --tertiary2:rgba(249, 130, 86, 1);
+    --tertiary3:rgba(252, 165, 120, 1);
+    --tertiary4:rgba(254, 202, 165, 1);
+    --tertiary5:rgba(254, 232, 210, 0.8);
+
+    --text-dark1:rgba(34, 35, 37, 1);
+    --text-dark2:rgba(51, 51, 51, 0.68);
+    --text-dark3:rgba(58, 53, 65, 0.38);
+
+    --text-light1:rgba(255, 255, 255, 1);
+    --text-light2:rgba(193, 194, 196, 1);
+    --text-light3:rgba(157, 158, 161, 1);
+}
+
