@@ -17,19 +17,30 @@
                 <p class="subtitle">Yuk, lanjutin belajarmu di videobelajar.</p>
             </div>    
             <fieldset>
-                <label for="email">E-mail <img src="./images/icon/Span.png"></label>
-                <input type="text" id="email" name="email" placeholder="Masukan E-mail" required>
-                
-                <label for="password">Kata Sandi <img src="./images/icon/Span.png"></label>
-                <input type="password" id="kataSandi" name="kataSandi" placeholder="Masukan Kata Sandi" required >
-                <img src="./images/icon/Vector.png" style="position:absolute; top: 88%; width: 20px;">
+                <label for="email">E-mail <span>*</span>
+                    <input type="text" id="email" name="email" placeholder="Masukan E-mail" required>
+                </label>
+
+                <label for="password">Kata Sandi <span>*</span> 
+                    <input type="password" id="kataSandi" name="kataSandi" placeholder="Masukan Kata Sandi" required >
+                </label>
+                <img src="./images/icon/Vector.png" style="position:absolute; top: 63%; width: 20px; margin-left: 500px;" >
             
-                <a href="#">Lupa Password?</a>
+                <a href="#" class="forgetPw">Lupa Password?</a>
                 
-                <button type="submit" class="btn btn-login">Masuk</button>
-                <button type="button" class="btn btn-register">Daftar</button>
+                <a href="#">
+                    <button type="submit" class="btn btn-login">Masuk</button>
+                </a>
+                <a href="daftar.html">
+                    <button type="button" class="btn btn-register">Daftar</button>
+                </a>
                 <div class="separator">atau</div>
-                <button type="button" class="btn-google"><img src="./images/icon/logos_google-icon.png"><span>Masuk dengan Google</span></button>
+                <a href="#">
+                    <button type="button" class="btn-google">
+                        <img src="./images/icon/logos_google-icon.png">
+                        <p>Masuk dengan Google</p>
+                    </button>
+                </a>
             </fieldset>
         </form>
     </div>
