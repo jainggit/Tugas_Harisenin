@@ -108,18 +108,54 @@ label{
 }
 
 .flag-contain{
-    border: 1px solid rgba(241, 241, 241, 1)
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 156.67px;
     height: 48px;
-    padding-bottom: 4px;
-    padding-top: 4x;
-    padding-left: 10px;
-    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-top: 2px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(241, 241, 241, 1);
 }
 
 .flag{
+    width: 44px;
+    height: 48px;
+    border-right: 1px;
+    margin-top: 4px;
+    padding-top: 4px; 
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;  
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     background-color: rgba(244, 245, 250, 1);
-    border-right: 1px solid rgba(58, 53, 65, 0.12)
+    border-right: 1px solid rgba(58, 53, 65, 0.12);
+
+}
+
+.nomor{
+    width: 156.67px;
+    height: 48px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    padding-top: 8x;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.input-nomor{
+    width: 337.33px;
+    padding-bottom: 4px;
+    padding-top: 4x;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
 }
 
 a{
