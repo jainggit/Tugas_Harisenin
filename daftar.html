@@ -26,12 +26,16 @@
 
                 <div>
                     <label for="nomor">No.Hp <span>*</span>
-                        <img src="images/icon/flag.png" alt="flag.png">
-                        <select name="country-code" id="country-code-select">
-                            <option value="indonesia" selected disabled>+62</option>
-                        </select>
-
-                        <input type="tel" id="nomor" name="nomor" placeholder="Masukan Nomor Hp" required> 
+                        <div class="flag-option">
+                            <div class="flag-contain">
+                                <img src="images/icon/flag.png" alt="flag.png" class="flag">
+                                <select name="country-code" id="country-code-select">
+                                    <option value="indonesia" selected disabled>+62</option>
+                                </select>
+                            </div>
+                            <input type="tel" id="nomor" name="nomor" placeholder="Masukan Nomor Hp" required>
+                        </div>
+                         
                     </label>
                 </div>
 

@@ -103,6 +103,25 @@ label{
     margin-right: 335px;
 }
 
+.flag-option{
+    display: flex;
+}
+
+.flag-contain{
+    border: 1px solid rgba(241, 241, 241, 1)
+    width: 156.67px;
+    height: 48px;
+    padding-bottom: 4px;
+    padding-top: 4x;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+.flag{
+    background-color: rgba(244, 245, 250, 1);
+    border-right: 1px solid rgba(58, 53, 65, 0.12)
+}
+
 a{
     text-decoration: none;
 }
