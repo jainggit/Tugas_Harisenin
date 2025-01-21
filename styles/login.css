@@ -8,26 +8,23 @@
 
 body{
     background-color: rgba(255, 253, 243, 1);
-    width: 1440px;
     height: 1024px;
     top: 3678px;
     left: -23302px;
 }
 
 
-.img-judul{
-    width: 1440px;
-    height: 80px;
+nav{
+    height: 50px;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 12px;
     padding-bottom: 12px;
+    gap: 36px;
     background-color: rgba(255, 255, 255, 1);
-    justify-content: space-between;
 }
 
 .container{
-    width: 1440px;
     height: 944px;
     padding-top: 64px;
     padding-right: 120px;
