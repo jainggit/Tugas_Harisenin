@@ -23,6 +23,7 @@ nav{
     gap: 36px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;  
+    border-bottom: 1px solid rgba(58, 53, 65, 0.12)
 }
 
 .nav-img{
@@ -87,7 +88,7 @@ nav{
     margin-left: 140px;
     margin-top: 82px;
     margin-bottom: 82px;
-    gap: 24px;
+    gap: 32px;
 }
 
 #nav-link{
@@ -106,9 +107,48 @@ li:hover {
 }
 
 
+.card{
+    width: 344px;
+    height: 426px;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(58, 53, 65, 0.12);
+    display: flex;
+    flex-direction: column;
+}
 
+.img-card{
+    width: 344px;
+    height: 193px;
+    border-radius: 10px;  
+}
 
+.content-card{
+    width: 344px;
+    height: 74px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
+.ava-card{
+    height: 42px;
+    gap: 10px;
+    display: flex;
+}
+
+.rating-card{
+    display: flex;
+    justify-content: space-between;
+    height: 29px;
+}
+
+.rating-star{
+    display: flex;
+    align-items: center;
+}
 
 .bottom{
     background: url(../images/icon/background/background2.png) no-repeat center center rgba(0, 0, 0, 0.7);
@@ -166,3 +206,72 @@ input{
     color: rgba(51, 51, 51, 0.68);
 }
 
+footer{
+    background-color: rgba(255, 255, 255, 1);
+    height: 427px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+    border-top: 1px solid rgba(58, 53, 65, 0.12)
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    height: 199px;
+}
+
+.content-img{
+    display: flex;
+    flex-direction: column;
+    height: 190x;
+    width: 352px;
+    gap: 16px;
+}
+
+.content-img h6{
+    font-weight: 700;
+    color: rgba(34, 35, 37, 1);
+}
+
+.content-img p{
+    color: rgba(34, 35, 37, 1);
+    font-weight: 400;
+}
+
+.content-information{
+    display: flex;
+    width: 485px;
+    height: 199px;
+    gap: 48px;
+}
+
+.information-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.headP{
+    color: rgba(34, 35, 37, 1);
+    font-weight: 700;
+}
+
+.information-content p{
+    color: rgba(51, 51, 51, 0.68);
+    font-weight: 500;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.copyRight{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: rgba(51, 51, 51, 0.68);
+}
