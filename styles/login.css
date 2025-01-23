@@ -15,13 +15,14 @@ body{
 
 
 nav{
+    width: 100vw;
     height: 50px;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 12px;
     padding-bottom: 12px;
-    gap: 36px;
     background-color: rgba(255, 255, 255, 1);
+    position: fixed;
 }
 
 .container{
@@ -63,9 +64,6 @@ form {
 .subtitle {
     color: rgba(51, 51, 51, 0.68);
 }
-.title {
-    margin-left: 10px;
-}
 
 fieldset {
     width: 518px;
@@ -85,19 +83,14 @@ input {
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
     border: 1px solid rgba(241, 241, 241, 1)
 
 }
 label{
     width: 100px;
-    color: rgba(74, 80, 92, 1);
+    color: rgba(51, 51, 51, 0.68);
     font-weight: 400;
-    line-height: 22.4px;
-    margin-right: 430px;
+    margin-right: 440px;
 }
 
 a{
@@ -105,7 +98,7 @@ a{
 }
 
 .forgetPw {
-    margin-left: 430px;
+    margin-left: 470px;
     width: 150px;
     color: rgba(51, 51, 51, 0.68);
 }
@@ -115,13 +108,9 @@ span{
 }
 
 .btn{
-    width: 518px;
+    width: 540px;
     height: 42px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     cursor: pointer;
     border: none;
 }
@@ -148,15 +137,15 @@ span{
     color: rgba(74, 80, 92, 1);
     font-weight: 700;
     line-height: 22.4px;
-    width: 518px;
+    width: 540px;
     height: 42px;
     border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(241, 241, 241, 1);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid rgba(241, 241, 241, 1)
 }
 
 p{
@@ -169,9 +158,106 @@ p{
     color: rgba(74, 80, 92, 1);
 }
 
+@media (max-width: 360px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        width: 360px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: auto;
+        position: fixed;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-width: 1px 0px 1px 0px;
+        border-style: solid;
+        border-color: rgba(241, 241, 241, 1);
+        box-shadow: 5px 5px 20px rgba(62, 67, 74, 0.31);
 
 
+    }
 
+    nav img {
+        width: 50%;
+        height: 50%;
+        box-shadow:rgba(51, 51, 51, 0.68)
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        height: 790px;
+    }
+
+    form {
+        width: 320px;
+        height: 514px;
+        padding: 10px;
+        border: 1px solid rgba(241, 241, 241, 1);
+        border-radius: 6px;
+        gap: 20px;
+    }
+
+    .content {
+        width: 280px;
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    fieldset {
+        width: 280px;
+        height: auto;
+        gap: 16px;
+    }
+
+    label {
+        width: 50%;
+        margin-right: 0;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    input {
+        width: 280px;
+        height: 40px;
+        font-size: 14px;
+        margin-right: 290px;
+    }
+
+    .forgetPw {
+        margin-left: 150px;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 300px;
+        height: 34px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .btn-google {
+        width: 300px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
 
 
 

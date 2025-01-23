@@ -89,12 +89,14 @@ input {
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
-    border: 1px solid rgba(241, 241, 241, 1)
-
+    border: 1px solid rgba(241, 241, 241, 1);
 }
+
+
+
 label{
     width: 200px;
-    color: rgba(74, 80, 92, 1);
+    color: rgba(51, 51, 51, 0.68);
     font-weight: 400;
     line-height: 22.4px;
     margin-right: 335px;
@@ -225,7 +227,122 @@ p{
 }
 
 
+@media (max-width: 360px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
 
+    nav {
+        width: 360px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: auto;
+        position: fixed;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-width: 1px 0px 1px 0px;
+        border-style: solid;
+        border-color: rgba(241, 241, 241, 1);
+        box-shadow: 5px 5px 20px rgba(62, 67, 74, 0.31);
+    }
+
+    nav img {
+        width: 50%;
+        height: 50%;
+        box-shadow:rgba(51, 51, 51, 0.68)
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        height: 1050px;
+    }
+
+    form {
+        width: 320px;
+        height: 780px;
+        padding: 10px;
+        border: 1px solid rgba(241, 241, 241, 1);
+        border-radius: 6px;
+        gap: 20px;
+    }
+
+    .content {
+        width: 280px;
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    fieldset {
+        width: 280px;
+        height: auto;
+        gap: 16px;
+    }
+
+    label {
+        width: 50%;
+        margin-right: 0;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    input {
+        width: 280px;
+        height: 40px;
+        font-size: 14px;
+        margin-right: 150px;
+    }
+
+    .input-nomor {
+        width: 146px;
+    }
+
+    .nomorHp{
+        margin-left: 150px;
+    }
+
+    .flag-contain{
+        width: 105px;
+        height: 40px;
+        margin-left: 150px;
+    }
+
+    .flag{
+        height: 40px;
+    }
+
+    .forgetPw {
+        margin-left: 150px;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 300px;
+        height: 34px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .btn-google {
+        width: 300px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
 
 
 
